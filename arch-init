@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+pacman -S \
+        alsa-utils \
+        cmus \
+        docker \
+        feh \
+        firefox \
+        firefox-developer-edition \
+        gimp \
+        gpick \
+        htop \
+        i3 \
+        imagemagick \
+        inkscape \
+        keepassxc \
+        libreoffice-fresh \
+        motion \
+        mpv \
+        networkmanager \
+        pdftk \
+        perl-image-exiftool \
+        speedcrunch \
+        thunar \
+        tldr \
+        tmux \
+        vifm \
+        vim \
+        zathura \
+        zathura-pdf-mupdf \
+        zathura-ps
