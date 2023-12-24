@@ -27,6 +27,7 @@ pacman -S \
         tmux \
         vifm \
         vim \
+        xdotool \
         zathura \
         zathura-pdf-mupdf \
         zathura-ps
