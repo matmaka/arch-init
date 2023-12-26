@@ -25,6 +25,7 @@ pacman -S \
         thunar \
         tldr \
         tmux \
+        ttf-fira-code \
         vifm \
         vim \
         xdotool \
