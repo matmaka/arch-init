@@ -1,14 +1,22 @@
 #!/usr/bin/env bash
 
-pacman -S \
+if [ -f "/sys/firmware/efi/fw_platform_size" ]; then
+        pacman -S --needed efibootmgr
+fi
+
+pacman -S --needed \
         alsa-utils \
+        base \
+        base-devel \
         cmus \
         docker \
         feh \
         firefox \
         firefox-developer-edition \
         gimp \
+        git \
         gpick \
+        grub \
         htop \
         i3 \
         imagemagick \
@@ -16,12 +24,20 @@ pacman -S \
         keepassxc \
         kruler \
         libreoffice-fresh \
+        linux \
+        linux-firmware \
+        lvm2 \
+        man-db \
+        man-pages \
         motion \
         mpv \
         networkmanager \
+        openssh \
         pdftk \
         perl-image-exiftool \
         speedcrunch \
+        sudo \
+        texinfo \
         thunar \
         tldr \
         tmux \
@@ -29,6 +45,7 @@ pacman -S \
         vifm \
         vim \
         xdotool \
+        xorg-server \
         zathura \
         zathura-pdf-mupdf \
         zathura-ps
