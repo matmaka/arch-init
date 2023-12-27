@@ -18,6 +18,7 @@ pacman -S --needed \
         gpick \
         grub \
         htop \
+        speedtest-cli \
         i3 \
         imagemagick \
         inkscape \
