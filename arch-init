@@ -10,6 +10,7 @@ pacman -S --needed \
         base-devel \
         cmus \
         docker \
+        elinks \
         feh \
         firefox \
         firefox-developer-edition \
@@ -36,6 +37,8 @@ pacman -S --needed \
         openssh \
         pdftk \
         perl-image-exiftool \
+        rclone \
+        rsync \
         speedcrunch \
         speedtest-cli \
         sudo \
