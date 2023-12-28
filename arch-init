@@ -18,7 +18,6 @@ pacman -S --needed \
         gpick \
         grub \
         htop \
-        speedtest-cli \
         i3 \
         imagemagick \
         inkscape \
@@ -38,12 +37,14 @@ pacman -S --needed \
         pdftk \
         perl-image-exiftool \
         speedcrunch \
+        speedtest-cli \
         sudo \
         texinfo \
         thunar \
         tldr \
         tmux \
         ttf-fira-code \
+        unclutter \
         vifm \
         vim \
         xdotool \
